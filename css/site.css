@@ -1,0 +1,40 @@
+/*--------------------------Styles for sticky footer-------------------------*/
+
+/*--Makes sure the document is 100% tall. Takes up all vertical space--*/
+html,
+body {
+  height: 100%;
+}
+
+/*--Makes the body a flex box--*/
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/*--Makes our flex box grow--*/
+.content {
+  flex: 1 0 auto;
+  margin-top: 4rem;
+}
+
+/*--Shriks the footer as small as possible--*/
+footer {
+  flex-shrink: 0;
+}
+
+/*-----------------------Styles for sticky footer stop------------------------*/
+
+.bgImage {
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.5)), url(/img/GridBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titleText {
+    font-family: 'Londrina Shadow', sans-serif;
+    text-transform: uppercase;
+    color: pink;
+}
