@@ -38,3 +38,8 @@ footer {
     text-transform: uppercase;
     color: pink;
 }
+
+.h1Text {
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+}

@@ -17,12 +17,22 @@
       crossorigin="anonymous"
     />
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Custom style sheet should always be last -->
-    <link href="/css/site.css" rel="stylesheet">
+    <link href="/css/site.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -47,13 +57,18 @@
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="gridOne.html">Grid 1</a>
+                <a class="nav-link" href="gridOne.html">Grid 1</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="gridTwo.html">Grid 2</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="gridThreeA.html">Grid 3a</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="gridThreeA.html"
+                  >Grid 3a</a
+                >
               </li>
 
               <li class="nav-item">
@@ -84,18 +99,138 @@
     </header>
 
     <main class="content">
-      <div class="container text-center">
-        <h1>Grid Three-A</h1>
+      <div class="container">
+        <h1 class="h1Text">Side Article Layout</h1>
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <div class="border border-1 border-dark rounded px-2 mb-4">
+              <h1 class="h1Text">Main Article</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ne in
+                odium veniam, si amicum destitero tueri. Levatio igitur vitiorum
+                magna fit in iis, qui habent ad virtutem progressionis
+                aliquantum. Laelius clamores sofòw ille so lebat Edere
+                compellans gumias ex ordine nostros. Non potes, nisi retexueris
+                illa. Aliter enim explicari, quod quaeritur, non potest. Duo
+                Reges: constructio interrete.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quod
+                equidem non reprehendo; Et homini, qui ceteris animantibus
+                plurimum praestat, praecipue a natura nihil datum esse dicemus?
+                Duo Reges: constructio interrete. Qui enim voluptatem ipsam
+                contemnunt, iis licet dicere se acupenserem maenae non
+                anteponere. Universa enim illorum ratione cum tota vestra
+                confligendum puto. Perturbationes autem nulla naturae vi
+                commoventur, omniaque ea sunt opiniones ac iudicia levitatis.
+                Easdemne res? Qui-vere falsone, quaerere mittimus-dicitur oculis
+                se privasse; In qua quid est boni praeter summam voluptatem, et
+                eam sempiternam? Dolere malum est: in crucem qui agitur, beatus
+                esse non potest.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etenim
+                semper illud extra est, quod arte comprehenditur. Quae
+                diligentissime contra Aristonem dicuntur a Chryippo.
+                <b>Quare attende, quaeso.</b> Duo Reges: constructio interrete.
+                Non est igitur voluptas bonum.
+              </p>
+              <dl class="row">
+                <dt class="col-sm-3">Description lists</dt>
+                <dd class="col-sm-9">
+                  A description list is perfect for defining terms.
+                </dd>
+
+                <dt class="col-sm-3">Term</dt>
+                <dd class="col-sm-9">
+                  <p>Definition for the term.</p>
+                  <p>And some more placeholder definition text.</p>
+                </dd>
+
+                <dt class="col-sm-3">Another term</dt>
+                <dd class="col-sm-9">
+                  This definition is short, so no extra paragraphs or anything.
+                </dd>
+
+                <dt class="col-sm-3 text-truncate">
+                  Truncated term is truncated
+                </dt>
+                <dd class="col-sm-9">
+                  This can be useful when space is tight. Adds an ellipsis at
+                  the end.
+                </dd>
+
+                <dt class="col-sm-3">Nesting</dt>
+                <dd class="col-sm-9">
+                  <dl class="row">
+                    <dt class="col-sm-4">Nested definition list</dt>
+                    <dd class="col-sm-8">
+                      I heard you like definition lists. Let me put a definition
+                      list inside your definition list.
+                    </dd>
+                  </dl>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5">
+            <div>
+              <div class="border border-1 border-dark rounded px-2 mb-4">
+                <h1 class="text-center h1Text">Article One</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  <b>Illi enim inter se dissentiunt.</b> Universa enim illorum
+                  ratione cum tota vestra confligendum puto. Atque hoc loco
+                  similitudines eas, quibus illi uti solent, dissimillimas
+                  proferebas. Satisne vobis videor pro meo iure in vestris
+                  auribus commentatus? Duo Reges: constructio interrete. Nec
+                  tamen ullo modo summum pecudis bonum et hominis idem mihi
+                  videri potest. Res enim se praeclare habebat, et quidem in
+                  utraque parte. Fortemne possumus dicere eundem illum
+                  Torquatum?
+                </p>
+              </div>
+
+              <div class="border border-1 border-dark rounded px-2 mb-4">
+                <h1 class="text-center h1Text">Article Two</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ita
+                  fit cum gravior, tum etiam splendidior oratio. Qui igitur
+                  convenit ab alia voluptate dicere naturam proficisci, in alia
+                  summum bonum ponere? Ita prorsus, inquam; Paria sunt igitur.
+                  Indicant pueri, in quibus ut in speculis natura cernitur. Quid
+                  turpius quam sapientis vitam ex insipientium sermone pendere?
+                </p>
+
+                <ul>
+                  <li>Age, inquies, ista parva sunt.</li>
+                  <li>Duo Reges: constructio interrete.</li>
+                  <li>
+                    Nunc dicam de voluptate, nihil scilicet novi, ea tamen, quae
+                    te ipsum probaturum esse confidam.
+                  </li>
+                  <li>
+                    Vidit Homerus probari fabulam non posse, si cantiunculis
+                    tantus irretitus vir teneretur;
+                  </li>
+                  <li>
+                    Deinde disputat, quod cuiusque generis animantium statui
+                    deceat extremum.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
     <footer class="bg-dark text-light py-2 container-fluid">
-        <div class="row">
-            <div class="col text-start ps-3">Built by Brandon</div>
-            <div class="col text-center">부트스트랩과 그리드</div>
-            <div class="col text-end pn-3">Hire@BrandonLosch.com</div>
-
-        </div>
+      <div class="row">
+        <div class="col text-start ps-3">Built by Brandon</div>
+        <div class="col text-center">부트스트랩과 그리드</div>
+        <div class="col text-end pn-3">Hire@BrandonLosch.com</div>
+      </div>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
