@@ -19,10 +19,17 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Custom style sheet should always be last -->
-    <link href="/css/site.css" rel="stylesheet">
+    <link href="/css/site.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -47,7 +54,7 @@
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="gridOne.html">Grid 1</a>
+                <a class="nav-link" href="gridOne.html">Grid 1</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="gridTwo.html">Grid 2</a>
@@ -69,7 +76,12 @@
                 <a class="nav-link" href="gridSix.html">Grid 6</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="gridSeven.html">Grid 7</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="gridSeven.html"
+                  >Grid 7</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="gridEight.html">Grid 8</a>
@@ -84,18 +96,115 @@
     </header>
 
     <main class="content">
-      <div class="container text-center">
-        <h1>Grid Seven</h1>
+      <div class="container-fluid">
+        <h1 class="text-center h1Text2">Fluid Grid with Bottom</h1>
+        <div class="row">
+          <div class="col-12 order-lg-first">
+            <div class="border border-1 border-dark rounded p-2 mb-4 ">
+              <h1 class="h1Text2">Ego vero volo in virtute vim esse quam maximam;</h1>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <b>Tibi hoc incredibile, quod beatissimum.</b> Idemne, quod
+                iucunde? Suo enim quisque studio maxime ducitur. Igitur ne
+                dolorem quidem.
+              </p>
+
+              <h2 class="h1Text2">Duo Reges: constructio interrete.</h2>
+
+              <p>
+                Haec dicuntur inconstantissime.
+                <a href="http://loripsum.net/" target="_blank"
+                  >Teneo, inquit, finem illi videri nihil dolere.</a
+                >
+                <i>Verum hoc idem saepe faciamus.</i>
+                <b>Efficiens dici potest.</b> Odium autem et invidiam facile
+                vitabis.
+              </p>
+
+              <ol>
+                <li>
+                  Polemoni et iam ante Aristoteli ea prima visa sunt, quae paulo
+                  ante dixi.
+                </li>
+                <li>Immo videri fortasse.</li>
+                <li>
+                  Si enim ita est, vide ne facinus facias, cum mori suadeas.
+                </li>
+                <li>Praeclarae mortes sunt imperatoriae;</li>
+              </ol>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 order-lg-last">
+            <div class="border border-1 border-dark rounded p-2 mb-4 text-center">
+              <h1 class="h1Text2">Video Music</h1>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://youtu.be/i8_cqhk1Vdg" allowfullscreen></iframe>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-12 col-md-6 ">
+            <div class="border border-1 border-dark rounded p-2 mb-4">
+              <h1 class="h1Text2">
+                Aut unde est hoc contritum vetustate proverbium: quicum in
+                tenebris?
+              </h1>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Illis
+                videtur, qui illud non dubitant bonum dicere -; Quibus ego
+                vehementer assentior. Nos cum te, M.
+                <a href="http://loripsum.net/" target="_blank"
+                  >Inde igitur, inquit, ordiendum est.</a
+                >
+                Duo Reges: constructio interrete.
+              </p>
+
+              <p>
+                Vide, quantum, inquam, fallare, Torquate.
+                <a href="http://loripsum.net/" target="_blank"
+                  >Si quicquam extra virtutem habeatur in bonis.</a
+                >
+                Haec dicuntur inconstantissime.
+                <mark>Sine ea igitur iucunde negat posse se vivere?</mark> Non
+                est igitur voluptas bonum. Urgent tamen et nihil remittunt.
+              </p>
+
+              <ol>
+                <li>
+                  Tria genera cupiditatum, naturales et necessariae, naturales
+                  et non necessariae, nec naturales nec necessariae.
+                </li>
+                <li>
+                  Ampulla enim sit necne sit, quis non iure optimo irrideatur,
+                  si laboret?
+                </li>
+                <li>
+                  Totum genus hoc Zeno et qui ab eo sunt aut non potuerunt aut
+                  noluerunt, certe reliquerunt.
+                </li>
+                <li>
+                  Quem Tiberina descensio festo illo die tanto gaudio affecit,
+                  quanto L.
+                </li>
+                <li>
+                  Sed non alienum est, quo facilius vis verbi intellegatur,
+                  rationem huius verbi faciendi Zenonis exponere.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
     <footer class="bg-dark text-light py-2 container-fluid">
-        <div class="row">
-            <div class="col text-start ps-3">Built by Brandon</div>
-            <div class="col text-center">부트스트랩과 그리드</div>
-            <div class="col text-end pn-3">Hire@BrandonLosch.com</div>
-
-        </div>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col text-start ps-md-3">Built by Brandon</div>
+        <div class="col text-start text-md-center">Bootstrap/Grids</div>
+        <div class="col text-start text-md-end pe-3">Hire@BrandonLosch.com</div>
+      </div>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->

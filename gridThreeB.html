@@ -19,6 +19,10 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
 
     <!-- Custom style sheet should always be last -->
@@ -84,18 +88,59 @@
     </header>
 
     <main class="content">
-      <div class="container text-center">
-        <h1>Grid Three-B</h1>
+      <div class="container">
+        <h1 class="h1Text1">Article Layout with search</h1>
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <div class="border border-1 border-dark rounded p-2 mb-4">
+              <h1 class="h1Text1">Egone quaeris sentiam?</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duo Reges: constructio interrete. Primum quid tu dicis breve? Videamus animi partes, quarum est conspectus illustrior; <i>Quo igitur, inquit, modo?</i> Tertium autem omnibus aut maximis rebus iis, quae secundum naturam sint, fruentem vivere. Gerendus est mos, modo recte sentiat. </p>
+
+              <p>Hoc dictum in una re latissime patet, ut in omnibus factis re, non teste moveamur. Totum autem id externum est, et quod externum, id in casu est. Num igitur eum postea censes anxio animo aut sollicito fuisse? <i>Quantum Aristoxeni ingenium consumptum videmus in musicis?</i> </p>
+              
+              <h3 class="h1Text1">Haec quo modo conveniant, non sane intellego.</h3>
+              
+              <p><b>Tu quidem reddes;</b> <i>Hunc vos beatum;</i> Sin dicit obscurari quaedam nec apparere, quia valde parva sint, nos quoque concedimus; Nihil illinc huc pervenit. Deinde disputat, quod cuiusque generis animantium statui deceat extremum. Dulce amarum, leve asperum, prope longe, stare movere, quadratum rotundum. In his igitur partibus duabus nihil erat, quod Zeno commutare gestiret. Itaque hic ipse iam pridem est reiectus; </p>
+              
+              <h3 class="h1Text1">Iam in altera philosophiae parte.</h3>
+              
+              <p>Conferam avum tuum Drusum cum C. <i>Quod quidem iam fit etiam in Academia.</i> In his igitur partibus duabus nihil erat, quod Zeno commutare gestiret. An me, inquam, nisi te audire vellem, censes haec dicturum fuisse? Quis enim potest ea, quae probabilia videantur ei, non probare? </p>
+              
+            </div>
+          </div>
+          <div class="col-12 col-lg-5">
+            <div>
+              <div class="border border-1 border-dark rounded bg-secondary p-2 mb-4">
+                <div class="input-group">
+                  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                  <button type="button" class="btn btn-dark">search</button>
+                </div>
+                
+              </div>
+
+              <div class="border border-1 border-dark rounded p-2 mb-4">
+              
+                <h3 class="h1Text1">More Articles</h3>
+                <ul>
+                  <li><a href='http://loripsum.net/' target='_blank'>Quia voluptatem hanc</a></li>
+                  <li><a href='http://loripsum.net/' target='_blank'>Quae cum praeponunt</a></li>
+                  <li><a href='http://loripsum.net/' target='_blank'>Illud dico</a></li>
+                  <li><a href='http://loripsum.net/' target='_blank'>Maximas vero</a></li>
+                </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
     <footer class="bg-dark text-light py-2 container-fluid">
-        <div class="row">
-            <div class="col text-start ps-3">Built by Brandon</div>
-            <div class="col text-center">부트스트랩과 그리드</div>
-            <div class="col text-end pn-3">Hire@BrandonLosch.com</div>
-
-        </div>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col text-start ps-md-3">Built by Brandon</div>
+        <div class="col text-start text-md-center">Bootstrap/Grids</div>
+        <div class="col text-start text-md-end pe-3">Hire@BrandonLosch.com</div>
+      </div>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->

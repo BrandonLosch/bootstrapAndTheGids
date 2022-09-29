@@ -17,12 +17,22 @@
       crossorigin="anonymous"
     />
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Custom style sheet should always be last -->
-    <link href="/css/site.css" rel="stylesheet">
+    <link href="/css/site.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -47,7 +57,7 @@
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="gridOne.html">Grid 1</a>
+                <a class="nav-link" href="gridOne.html">Grid 1</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="gridTwo.html">Grid 2</a>
@@ -63,7 +73,12 @@
                 <a class="nav-link" href="gridFour.html">Grid 4</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="gridFive.html">Grid 5</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="gridFive.html"
+                  >Grid 5</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="gridSix.html">Grid 6</a>
@@ -84,18 +99,119 @@
     </header>
 
     <main class="content">
-      <div class="container text-center">
-        <h1>Grid Five</h1>
+      <div class="container">
+        <h1 class="text-center h1Text">Two Side Layout</h1>
+        <div class="row">
+          <div class="col-12 col-md-3 order-lg-first">
+            <div class="border border-1 border-dark rounded p-2 mb-4">
+              <h1 class="h1Text">Si amicum destitero</h1>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <b>Sed residamus, inquit, si placet.</b>
+              </p>
+
+              <ol>
+                <li>Quod autem ratione actum est, id officium appellamus.</li>
+                <li>Sed in rebus apertissimis nimium longi sumus.</li>
+                <li>
+                  In qua quid est boni praeter summam voluptatem, et eam
+                  sempiternam?
+                </li>
+                <li>Hanc quoque iucunditatem, si vis, transfer in animum;</li>
+                <li>Quid est, quod ab ea absolvi et perfici debeat?</li>
+              </ol>
+
+              <p>
+                <mark>Cur id non ita fit?</mark> Piso igitur hoc modo, vir
+                optimus tuique, ut scis, amantissimus. Non laboro, inquit, de
+                nomine. <b>Quo modo autem philosophus loquitur?</b>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 order-first">
+            <div class="border border-1 border-dark rounded p-2 mb-4">
+              <h1 class="h1Text">Iam id ipsum absurdum</h1>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
+                enim res aperta.
+                <i>Tuo vero id quidem, inquam, arbitratu.</i> Portenta haec esse
+                dicit, neque ea ratione ullo modo posse vivi; Hoc sic expositum
+                dissimile est superiori.
+              </p>
+
+              <p>
+                Duo Reges: constructio interrete.
+                <a href="http://loripsum.net/" target="_blank"
+                  >Nam Pyrrho, Aristo, Erillus iam diu abiecti.</a
+                >
+                Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum
+                magnitudinem posset accedere. Commoda autem et incommoda in eo
+                genere sunt, quae praeposita et reiecta diximus; Quid ad
+                utilitatem tantae pecuniae? <b>Idemne, quod iucunde?</b> Quis
+                hoc dicit?
+              </p>
+              <table class="table table-dark">
+                <thead></thead>
+                <tbody>
+                  <tr class="table-active">
+                    Leaderboards:
+                  </tr>
+                  <tr></tr>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td colspan="2" class="table-active">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td colspan="2" class="table-active">Gary the Owl</td>
+                    <td>@instagram</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td colspan="2" class="table-active">Jerry the Llama</td>
+                    <td>@facebook</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td colspan="2" class="table-active">Marry the Goat</td>
+                    <td>@instagram</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="border border-1 border-dark rounded p-2 mb-4">
+              <h1 class="h1Text">Quae hic rei publicae</h1>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sint
+                modo partes vitae beatae. Negare non possum. Hoc tu nunc in illo
+                probas. Que Manilium, ab iisque M. At, si voluptas esset bonum,
+                desideraret. Duo Reges: constructio interrete.
+              </p>
+
+              <p>
+                Diodorus, eius auditor, adiungit ad honestatem vacuitatem
+                doloris. ALIO MODO. Tum mihi Piso: Quid ergo? Quo modo autem
+                philosophus loquitur? Occultum facinus esse potuerit, gaudebit;
+                Velut ego nunc moveor.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
     <footer class="bg-dark text-light py-2 container-fluid">
-        <div class="row">
-            <div class="col text-start ps-3">Built by Brandon</div>
-            <div class="col text-center">부트스트랩과 그리드</div>
-            <div class="col text-end pn-3">Hire@BrandonLosch.com</div>
-
-        </div>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col text-start ps-md-3">Built by Brandon</div>
+        <div class="col text-start text-md-center">Bootstrap/Grids</div>
+        <div class="col text-start text-md-end pe-3">Hire@BrandonLosch.com</div>
+      </div>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
